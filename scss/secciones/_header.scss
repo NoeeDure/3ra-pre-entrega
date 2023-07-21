@@ -6,6 +6,7 @@ header {
     box-shadow: 0 5px 5px #70bb90;
 
 }
+
 .nav-inicio {
     padding: 1%;
     margin: auto;
@@ -13,8 +14,10 @@ header {
 
 a:hover {
     background-color: #6df06d;
-    color: #f3c266;
+    color: #f1aa24;
     padding: 10px;
+    transform: rotateZ(342deg);
+    transition: 3s;
 }
 
 a:active {
@@ -30,11 +33,13 @@ ul {
 
 
 }
+
 a {
     margin: 15px;
     color: #080808;
     text-decoration: none;
     font-family: cursive;
+
 
 }
 
@@ -42,13 +47,16 @@ h1 {
     color: #eef3f3;
     padding: 2%;
     text-decoration: overline;
-    font-size: 45px;
+    font-size: 40px;
+    transform: translateY(5px);
+    transition: all 3s;
 
 }
 
 header img {
-    width: 250px;
+    width: 200px;
 }
+
 .foto-principal {
     width: 1000px;
     display: flex;

@@ -26,8 +26,10 @@ header {
 
 a:hover {
   background-color: #6df06d;
-  color: #f3c266;
-  padding: 10px; }
+  color: #f1aa24;
+  padding: 10px;
+  transform: rotateZ(342deg);
+  transition: 3s; }
 
 a:active {
   background-color: #075f5c;
@@ -49,10 +51,12 @@ h1 {
   color: #eef3f3;
   padding: 2%;
   text-decoration: overline;
-  font-size: 45px; }
+  font-size: 40px;
+  transform: translateY(5px);
+  transition: all 3s; }
 
 header img {
-  width: 250px; }
+  width: 200px; }
 
 .foto-principal {
   width: 1000px;
@@ -97,7 +101,7 @@ header img {
   font-size: 13px; }
 
 .ofertas {
-  background-image: radial-gradient(#5ca586, #50b64a, #5ffca1);
+  background-color: #6bbd99;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -138,7 +142,7 @@ header img {
   background-color: #9fd8ac; }
 
 .parrafito {
-  background-image: radial-gradient(#5ca586, #50b64a, #5ffca1);
+  background-color: #6bbd99;
   color: white;
   text-transform: uppercase;
   display: flex;
