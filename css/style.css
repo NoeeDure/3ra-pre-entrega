@@ -11,7 +11,27 @@ p {
 .img-logo {
   width: 80px;
   background-color: #5ffca1;
-  padding: 0%; }
+  padding: 0%;
+  animation-name: baile-logo;
+  animation-duration: 5s; }
+
+@keyframes baile-logo {
+  0% {
+    transform: skew(0); }
+  25% {
+    transform: skew(-25deg); }
+  30% {
+    transform: skew(-30deg); }
+  35% {
+    transform: skew(-35deg); }
+  50% {
+    transform: skew(-30deg); }
+  60% {
+    transform: skew(-25deg); }
+  80% {
+    transform: skew(-10deg); }
+  100% {
+    transform: skew(0); } }
 
 header {
   display: flex;
@@ -51,9 +71,7 @@ h1 {
   color: #eef3f3;
   padding: 2%;
   text-decoration: overline;
-  font-size: 40px;
-  transform: translateY(5px);
-  transition: all 3s; }
+  font-size: 40px; }
 
 header img {
   width: 200px; }
@@ -136,7 +154,6 @@ header img {
 .locales p {
   display: flex;
   font-size: 12px;
-  padding: 2%;
   margin: auto;
   justify-content: center;
   background-color: #9fd8ac; }

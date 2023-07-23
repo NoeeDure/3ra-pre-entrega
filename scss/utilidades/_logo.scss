@@ -2,5 +2,34 @@
     width: 80px;
     background-color: #5ffca1;
     padding: 0%;
+    animation-name: baile-logo;
+    animation-duration: 5s;
 
 }
+@keyframes baile-logo {
+    0% {
+      transform: skew(0);
+    }
+    25% {
+      transform: skew(-25deg);
+    }
+    30% {
+      transform: skew(-30deg);
+    }
+    35% {
+      transform: skew(-35deg);
+    
+    }
+    50% {
+      transform: skew(-30deg);
+    }
+    60% {
+      transform: skew(-25deg);
+    }
+    80% {
+      transform: skew(-10deg);
+    }
+    100% {
+      transform: skew(0);
+    }
+  }
