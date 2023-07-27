@@ -67,11 +67,35 @@ a {
   text-decoration: none;
   font-family: cursive; }
 
-h1 {
-  color: #eef3f3;
+.t-inicio {
+  color: #683ab1;
   padding: 2%;
   text-decoration: overline;
-  font-size: 40px; }
+  font-size: 35px; }
+
+.t-conocenos {
+  color: #e7f706;
+  padding: 2%;
+  text-decoration: overline;
+  font-size: 35px; }
+
+.t-locales {
+  color: #f804f8;
+  padding: 2%;
+  text-decoration: overline;
+  font-size: 35px; }
+
+.t-productos {
+  color: #077fc4;
+  padding: 2%;
+  text-decoration: overline;
+  font-size: 35px; }
+
+.t-contacto {
+  color: #fa7304;
+  padding: 2%;
+  text-decoration: overline;
+  font-size: 35px; }
 
 header img {
   width: 200px; }
@@ -234,7 +258,6 @@ header img {
   .locales p {
     display: flex;
     font-size: 12px;
-    /* background-color: #9fd8ac; */
     padding: 0%;
     margin: auto; } }
 

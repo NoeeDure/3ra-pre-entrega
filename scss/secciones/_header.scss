@@ -21,7 +21,7 @@ a:hover {
 }
 
 a:active {
-    background-color: rgb(7, 95, 92);
+    background-color: #075f5c;
     color: black;
 }
 
@@ -43,12 +43,33 @@ a {
 
 }
 
-h1 {
-    color: #eef3f3;
+@mixin titulos($color-h1) {
+    color: $color-h1;
     padding: 2%;
     text-decoration: overline;
-    font-size: 40px;
-   }
+    font-size: 35px;
+
+}
+
+.t-inicio {
+    @include titulos(#683ab1);
+}
+
+.t-conocenos {
+    @include titulos(#e7f706);
+}
+
+.t-locales {
+    @include titulos (#f804f8);
+}
+
+.t-productos {
+    @include titulos (#077fc4);
+}
+
+.t-contacto {
+    @include titulos (#fa7304);
+}
 
 header img {
     width: 200px;
