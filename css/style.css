@@ -150,13 +150,23 @@ header img {
   font-family: cursive;
   font-size: 12px; }
 
+.grilla-footer {
+  display: grid;
+  grid-template-rows: auto;
+  background-image: linear-gradient(#46a094, #6bbd99); }
+
+.news {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto; }
+
 .lista-pie {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 1%;
   margin: auto;
-  background-image: linear-gradient(#46a094, #6bbd99);
   color: black;
   font-family: sans-serif;
   font-size: 15px; }
