@@ -140,7 +140,8 @@ header img {
   padding: 10px;
   border-radius: 15px;
   font-family: cursive;
-  font-size: 13px; }
+  font-size: 13px;
+  background-color: #6bbd99; }
 
 .ofertas {
   background-color: #6bbd99;
@@ -150,16 +151,21 @@ header img {
   font-family: cursive;
   font-size: 12px; }
 
-.grilla-footer {
-  display: grid;
-  grid-template-rows: auto;
-  background-image: linear-gradient(#46a094, #6bbd99); }
-
 .news {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin: auto; }
+  align-items: center;
+  padding: 10px;
+  font-family: cursive;
+  font-size: 15px;
+  background-color: #6bbd99;
+  color: #1b0255; }
+
+input {
+  background-color: #f4f5f8;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: cursive; }
 
 .lista-pie {
   display: flex;
@@ -167,16 +173,17 @@ header img {
   text-align: center;
   padding: 1%;
   margin: auto;
-  color: black;
-  font-family: sans-serif;
-  font-size: 15px; }
+  color: #1b0255;
+  font-family: cursive;
+  font-size: 14px;
+  background-image: linear-gradient(#46a094, #6bbd99); }
 
 .pie {
   background-color: #6bbd99;
-  color: black;
+  color: #1b0255;
   text-align: center;
-  font-family: sans-serif;
-  font-size: 15px; }
+  font-family: cursive;
+  font-size: 13px; }
 
 .locales {
   font-family: sans-serif;

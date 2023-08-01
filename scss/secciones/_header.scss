@@ -4,7 +4,6 @@ header {
     align-items: center;
     background-color: #5ffca1;
     box-shadow: 0 5px 5px #70bb90;
-
 }
 
 .nav-inicio {
@@ -30,8 +29,6 @@ ul {
     font-size: 18px;
     list-style-type: none;
     display: flex;
-
-
 }
 
 a {
@@ -39,8 +36,6 @@ a {
     color: #080808;
     text-decoration: none;
     font-family: cursive;
-
-
 }
 
 @mixin titulos($color-h1) {
@@ -48,7 +43,6 @@ a {
     padding: 2%;
     text-decoration: overline;
     font-size: 35px;
-
 }
 
 .t-inicio {
@@ -80,5 +74,4 @@ header img {
     display: flex;
     align-items: center;
     margin: auto;
-
 }
