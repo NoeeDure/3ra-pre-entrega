@@ -7,13 +7,14 @@
 
 }
 
+
 .locales p {
     display: flex;
     font-size: 12px;
     margin: auto;
     justify-content: center;
     background-color: #9fd8ac;
-    
+
 }
 
 .parrafito {
@@ -38,5 +39,10 @@
 
 .local3 {
     width: 350px;
+    margin: 15px;
+}
+
+iframe {
+    display: flex;
     margin: 15px;
 }
